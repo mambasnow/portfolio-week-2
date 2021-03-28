@@ -1,0 +1,221 @@
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: White;
+}
+/* This lets the user edit the nav bar */
+nav{
+    width: 100%;
+}
+/* main edit for nav elements and background */
+.nav-list{
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* This is for the list elements in the nav bar */
+.nav-list li {
+    list-style: none;
+    margin-right: 2rem;
+    color: white;
+
+}
+/* name div section */
+#intro-name{
+    background-color: #ffe742;
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 2rem;
+    -webkit-box-shadow: 0px 12px 21px -5px rgba(0,0,0,0.47); 
+    box-shadow: 0px 12px 21px -5px rgba(0,0,0,0.47);
+}
+
+/* container for the names inside intro div */
+.name-Banner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Alignes all text in banner */
+.name-Banner span{
+    text-align: center;
+}
+/* First name text in banner */
+.first-name{
+    display: inline;
+    font-size: 24.6vw;
+    font-weight: bold;
+   
+}
+/* Last  name text in banner */
+.last-name{
+    font-size: 13vw;
+    display: inline;
+    line-height: 1;
+    padding: 0 .5rem;
+    background: black;
+    color: #ffe742;
+    margin-left: 30%;
+    margin-right: 22%;
+    margin-bottom: 5%;
+}
+/* Phrase  text  in banner*/
+.hero-tagline{
+    display: inline;
+    margin-top: .125rem;
+    font-size: 7.42vw;
+}
+/* bio sections */
+.bio{
+    display: block;
+    margin: 10px 20px 10px 20px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.bio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bio article{
+    font-size: 125%;
+    font-family:  sans-serif;
+    margin-right: 2%;
+    margin-bottom: 5% ;
+    margin-top: 5%;
+    width: 60%;
+    position: relative;
+}
+/* this container holds the main img of creator */
+.image-container{
+    width: 40%;
+    height: 100%;
+}
+
+
+/* image  of creator */
+.image-container img{
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: -7px 9px 3px -2px rgba(0,0,0,0.51); 
+    box-shadow: -7px 9px 3px -2px rgba(0,0,0,0.51);
+}
+
+/* Project sesction div */
+#Projects{
+    height: 90%;
+    width: 100vw;
+    background-color: black;
+    color: white;
+} 
+/* this is for the h1 headers of contact and project section */
+#Projects h1, #Contact h1{
+    padding-top: 2%;
+    font-size: 450%;
+    text-align: center;
+    
+}
+
+.proj-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+/* Edit for the project boxes inside project section */
+.display-box{
+    outline-color: #ffe742;
+    outline-style: solid;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 300px;
+    height: 300px;
+}
+/* main contact div */
+#Contact{
+    height: 60vh;
+    width: 100wh;
+    background-color: white;
+    padding: 20px 100px;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+/* header for contact */
+
+#Contact h1{
+    margin-bottom: 5%;
+}
+
+.contact-box{
+    background-color: black;
+    width: 500px;
+    height: inherit;
+    border-radius: 15px 50px;
+    -webkit-box-shadow: 5px 5px 24px 0px #000000; 
+    box-shadow: 5px 5px 24px 0px #000000;
+    
+
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+}
+/* this is for all the input */
+
+.field{
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+/* all footer section */
+footer{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+footer ul li{
+    list-style: none;
+    
+}
