@@ -126,7 +126,6 @@ nav{
 
 /* Project sesction div */
 #Projects{
-    height: 90%;
     width: 100vw;
     background-color: black;
     color: white;
@@ -172,7 +171,6 @@ nav{
 /* main contact div */
 #Contact{
     height: 60vh;
-    width: 100wh;
     background-color: white;
     padding: 20px 100px;
     padding-bottom: 5%;
@@ -180,6 +178,7 @@ nav{
     align-items: center;
     flex-direction: column;
     padding-bottom: 30px;
+    margin-bottom: 5%;
 }
 /* header for contact */
 
@@ -214,27 +213,3 @@ nav{
 }
 
 /* all footer section */
-footer{
-    width: 100%;
-    height: 25px;
-    color: black;
-    background-color: #ffe742;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-
-footer ul{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2%;
-}
-
-footer ul li{
-    list-style: none;
-    color: ;
-    
-}
-
-footer a {
-    color: black;
-}

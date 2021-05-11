@@ -6,6 +6,7 @@
         Joe's Portfolio
     </title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     <header id="top">
@@ -19,6 +20,9 @@
                 </li>
                 <li>
                     <a href="#Contact">Contact</a>
+                </li>
+                <li>
+                    <a href="https://github.com/mambasnow" target="_blank" >Github</a>
                 </li>
             </ul>
         </nav> 
@@ -58,56 +62,86 @@
         </div>
         <section id="Projects">
             <h1>Projects</h1>
-            <div class="proj-container">
-                <div class="display-box">
-                    <a href="#"><img src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="Project image"></a>
+            <main class="grid place-items-center min-h-screen bg-white p-5">
+                <div>
+                  <section class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <!-- CARD 1 -->
+                    <div class="bg-gray-900 shadow-lg rounded p-3">
+                      <div class="group relative  h-4/5">
+                        <img class="w-full md:w-72 block rounded h-full" src="../portfolio-week-2/assets/images/bucket-list.PNG" alt="Movie Generator" />
+                        <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                          <a href="https://mambasnow.github.io/Bucket-List/"target="_blank"><button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                            </svg>
+                          </button></a>
+                        </div>
+                      </div>
+                      <div class="p-5">
+                        <h3 class="text-white text-lg">The Bucket List</h3>
+                      </div>
+                    </div>
+                    <!-- END OF CARD 1 -->
+              
+                    <!-- CARD 2 -->
+                    <div class="bg-gray-900 shadow-lg rounded p-3">
+                      <div class="group relative">
+                        <img class="w-full md:w-72 block rounded" src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="" />
+                        <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+
+              
+                          <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="p-5">
+                        <h3 class="text-white text-lg">Project 2</h3>
+                      </div>
+                    </div>
+                    <!-- END OF CARD 2 -->
+              
+                    <!-- CARD 3 -->
+                    <div class="bg-gray-900 shadow-lg rounded p-3">
+                      <div class="group relative">
+                        <img class="w-full md:w-72 block rounded" src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="" />
+                        <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+              
+                          <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                            </svg>
+                          </button>     
+                        </div>
+                      </div>
+                      <div class="p-5">
+                        <h3 class="text-white text-lg">Project 3</h3>
+                      </div>
+                    </div>
+                    <!-- END OF CARD 3 -->
+                  </section>
                 </div>
-                <div class="display-box">
-                    <a href="#"><img src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="Project image"></a>
-                </div>
-                <div class="display-box">
-                    <a href="#"><img src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="Project image"></a>
-                </div>
-                <div class="display-box">
-                    <a href="#"><img src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="Project image"></a>
-                </div>
-                <div class="display-box">
-                    <a href="#"><img src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="Project image"></a>
-                </div>
-                <div class="display-box">
-                    <a href="#"><img src="../portfolio-week-2/assets/images/Placeholder.jpg" alt="Project image"></a>
-                </div>
+              </main>
             </div>
         </section>
         <section id="Contact">
             <h1>Contact Me</h1>
             <div class="contact-box">
                 <div class="form">
-                    <input type="text" class="field" placeholder="Your name">
-                    <input type="email" class="field" placeholder="Your email">
-                    <input type="text" class="field" placeholder="Your Phone number">
-                    <textarea  class="field" placeholder="Message"></textarea>
-                    <input class="field" type="submit" value="Submit">
+                    <input type="text" class="field w-4/5" placeholder="Your name">
+                    <input type="email" class="field w-4/5" placeholder="Your email">
+                    <input type="text" class="field w-4/5" placeholder="Your Phone number">
+                    <textarea  class="field w-4/5" placeholder="Message"></textarea>
+                    <button class=" w-full bg-transparent hover:bg-blue text-white font-semibold">
+                        Submit
+                    </button>>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-            <ul class="footer-list">
-                <li>
-                    <a href="#top">Top</a>
-                </li>
-                <li>
-                    <a href="#">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://github.com/mambasnow" target="_blank" >Github</a>
-                </li>
-                <li>
-                    <a href="#">Twitter</a>
-                </li>
-            </ul>
-    </footer>
+   
 </body>
 
 </html>
